@@ -17,12 +17,18 @@ $( document).ready(function() {
     });
 
     function open() {
+    document.getElementById("videoIframe").src += "&autoplay=1";
         envelope.addClass("open")
            .removeClass("close");
+
     }
     function close() {
+
         envelope.addClass("close")
            .removeClass("open");
+           var ysrc = document.getElementById("videoIframe").src;
+                 var newsrc = ysrc.replace("&autoplay=1", "");
+                 document.getElementById("videoIframe").src = newsrc;
     }
    
 });
