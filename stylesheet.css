@@ -14,8 +14,8 @@ body {
 
 #envelope {
   position: relative;
-  width: 380px;
-  height: 285px;
+  width: 400px;
+  height: 300px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin-left: auto;
