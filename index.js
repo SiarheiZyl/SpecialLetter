@@ -17,7 +17,6 @@ $( document).ready(function() {
     });
 
     function open() {
-    document.getElementById("videoIframe").src += "&autoplay=1";
         envelope.addClass("open")
            .removeClass("close");
 
@@ -26,9 +25,6 @@ $( document).ready(function() {
 
         envelope.addClass("close")
            .removeClass("open");
-           var ysrc = document.getElementById("videoIframe").src;
-                 var newsrc = ysrc.replace("&autoplay=1", "");
-                 document.getElementById("videoIframe").src = newsrc;
     }
    
 });
