@@ -2,11 +2,20 @@ body {
   background-color: #82b3f3;
   margin: 0px;
   padding: 0px;
+  font-family: 'Inter';
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter/static/Inter-Medium.ttf');
 }
 
+@font-face {
+  font-family: 'Inter Light';
+  src: url('Inter/static/Inter-Light.ttf');
+}
 .type-j {
   font-weight: 700;
-  font-family: 'Segoe Script';
+  font-family: 'Inter';
   font-size: 20px;
   margin: auto;
   text-align: center;
@@ -95,7 +104,6 @@ body {
 
 .line1 {
   top: 15%;
-  width: 20%;
   height: 7%;
 }
 
